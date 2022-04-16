@@ -1,0 +1,16 @@
+{
+    "cleanUrls": true,
+    "version": 1,
+    "builds": [
+        {
+            "src": "./Index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
