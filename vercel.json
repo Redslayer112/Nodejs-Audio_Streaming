@@ -1,6 +1,6 @@
 {
     "cleanUrls": true,
-    "version": 1,
+    "version": 2,
     "builds": [
         {
             "src": "./Index.js",
